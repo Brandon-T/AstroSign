@@ -1,4 +1,4 @@
-//
+﻿//
 //  SignInfo.h
 //  AstroSign
 //
@@ -9,7 +9,7 @@
 
 /**  © 2014, Brandon T. All Rights Reserved.
  *
- *  This file is part of the ProSock Library.
+ *  This file is part of the AstroSign project.
  *  You may use this file only for your personal, and non-commercial use.
  *  You may not modify or use the contents of this file for any purpose (other
  *  than as specified above) without the express written consent of the author.
