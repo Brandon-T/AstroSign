@@ -16,6 +16,7 @@
  *  You may not reproduce, republish, post, transmit, publicly display,
  *  publicly perform, or distribute in print or electronically any of the contents
  *  of this file without express consent of rightful owner.
+ *  This notice must be retained in all files and may not be removed.
  *  This License is subject to change at any time without notice/warning.
  *
  *						Author : Brandon T.
