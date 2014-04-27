@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0CFF3818E22CD1000BE57E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0CFF3718E22CD1000BE57E /* Foundation.framework */; };
+		CA0CFF3A18E22CD2000BE57E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0CFF3918E22CD2000BE57E /* CoreGraphics.framework */; };
+		CA0CFF3C18E22CD2000BE57E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0CFF3B18E22CD2000BE57E /* UIKit.framework */; };
+		CA0CFF4218E22CD4000BE57E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA0CFF4018E22CD4000BE57E /* InfoPlist.strings */; };
+		CA0CFF4418E22CD4000BE57E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0CFF4318E22CD4000BE57E /* main.m */; };
+		CA0CFF4818E22CD6000BE57E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0CFF4718E22CD6000BE57E /* AppDelegate.m */; };
+		CA0CFF4B18E22CD6000BE57E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0CFF4918E22CD6000BE57E /* Main.storyboard */; };
+		CA0CFF5018E22CD8000BE57E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0CFF4F18E22CD8000BE57E /* Images.xcassets */; };
+		CA0CFF5718E22CE1000BE57E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0CFF5618E22CE1000BE57E /* XCTest.framework */; };
+		CA0CFF5818E22CE1000BE57E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0CFF3718E22CD1000BE57E /* Foundation.framework */; };
+		CA0CFF5918E22CE1000BE57E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0CFF3B18E22CD2000BE57E /* UIKit.framework */; };
+		CA0CFF6118E22CE2000BE57E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA0CFF5F18E22CE2000BE57E /* InfoPlist.strings */; };
+		CA0CFF6318E22CE3000BE57E /* AstroSignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0CFF6218E22CE2000BE57E /* AstroSignTests.m */; };
+		CA0CFF6E18E2392B000BE57E /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0CFF6D18E2392B000BE57E /* Utilities.m */; };
+		CAAFC0EF18EA3AB7000DB662 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAFC0EE18EA3AB7000DB662 /* ContentViewController.m */; };
+		CAF9BBBE190D98580016AD71 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF9BBBD190D98580016AD71 /* ImageCell.m */; };
+		CAF9BBC1190D98630016AD71 /* SignInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF9BBC0190D98630016AD71 /* SignInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA0CFF5A18E22CE2000BE57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0CFF2C18E22CC8000BE57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0CFF3318E22CCA000BE57E;
+			remoteInfo = AstroSign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA0CFF3418E22CCF000BE57E /* AstroSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0CFF3718E22CD1000BE57E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA0CFF3918E22CD2000BE57E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA0CFF3B18E22CD2000BE57E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA0CFF3F18E22CD4000BE57E /* AstroSign-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AstroSign-Info.plist"; sourceTree = "<group>"; };
+		CA0CFF4118E22CD4000BE57E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA0CFF4318E22CD4000BE57E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA0CFF4518E22CD4000BE57E /* AstroSign-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AstroSign-Prefix.pch"; sourceTree = "<group>"; };
+		CA0CFF4618E22CD5000BE57E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA0CFF4718E22CD6000BE57E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA0CFF4A18E22CD6000BE57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA0CFF4F18E22CD8000BE57E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA0CFF5518E22CE0000BE57E /* AstroSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0CFF5618E22CE1000BE57E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CA0CFF5E18E22CE2000BE57E /* AstroSignTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AstroSignTests-Info.plist"; sourceTree = "<group>"; };
+		CA0CFF6018E22CE2000BE57E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA0CFF6218E22CE2000BE57E /* AstroSignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstroSignTests.m; sourceTree = "<group>"; };
+		CA0CFF6C18E2392B000BE57E /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		CA0CFF6D18E2392B000BE57E /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		CAAFC0ED18EA3AB7000DB662 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		CAAFC0EE18EA3AB7000DB662 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		CAF9BBBC190D98580016AD71 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		CAF9BBBD190D98580016AD71 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		CAF9BBBF190D98630016AD71 /* SignInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInfo.h; sourceTree = "<group>"; };
+		CAF9BBC0190D98630016AD71 /* SignInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0CFF3118E22CCA000BE57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0CFF3A18E22CD2000BE57E /* CoreGraphics.framework in Frameworks */,
+				CA0CFF3C18E22CD2000BE57E /* UIKit.framework in Frameworks */,
+				CA0CFF3818E22CD1000BE57E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0CFF5218E22CE0000BE57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0CFF5718E22CE1000BE57E /* XCTest.framework in Frameworks */,
+				CA0CFF5918E22CE1000BE57E /* UIKit.framework in Frameworks */,
+				CA0CFF5818E22CE1000BE57E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0CFF2B18E22CC8000BE57E = {
+			isa = PBXGroup;
+			children = (
+				CA0CFF3D18E22CD4000BE57E /* AstroSign */,
+				CA0CFF5C18E22CE2000BE57E /* AstroSignTests */,
+				CA0CFF3618E22CCF000BE57E /* Frameworks */,
+				CA0CFF3518E22CCF000BE57E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0CFF3518E22CCF000BE57E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CFF3418E22CCF000BE57E /* AstroSign.app */,
+				CA0CFF5518E22CE0000BE57E /* AstroSignTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0CFF3618E22CCF000BE57E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CFF3718E22CD1000BE57E /* Foundation.framework */,
+				CA0CFF3918E22CD2000BE57E /* CoreGraphics.framework */,
+				CA0CFF3B18E22CD2000BE57E /* UIKit.framework */,
+				CA0CFF5618E22CE1000BE57E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA0CFF3D18E22CD4000BE57E /* AstroSign */ = {
+			isa = PBXGroup;
+			children = (
+				CAF9BBBF190D98630016AD71 /* SignInfo.h */,
+				CAF9BBC0190D98630016AD71 /* SignInfo.m */,
+				CAF9BBBC190D98580016AD71 /* ImageCell.h */,
+				CAF9BBBD190D98580016AD71 /* ImageCell.m */,
+				CA0CFF6C18E2392B000BE57E /* Utilities.h */,
+				CA0CFF6D18E2392B000BE57E /* Utilities.m */,
+				CA0CFF4618E22CD5000BE57E /* AppDelegate.h */,
+				CA0CFF4718E22CD6000BE57E /* AppDelegate.m */,
+				CA0CFF4918E22CD6000BE57E /* Main.storyboard */,
+				CAAFC0ED18EA3AB7000DB662 /* ContentViewController.h */,
+				CAAFC0EE18EA3AB7000DB662 /* ContentViewController.m */,
+				CA0CFF4F18E22CD8000BE57E /* Images.xcassets */,
+				CA0CFF3E18E22CD4000BE57E /* Supporting Files */,
+			);
+			path = AstroSign;
+			sourceTree = "<group>";
+		};
+		CA0CFF3E18E22CD4000BE57E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CFF3F18E22CD4000BE57E /* AstroSign-Info.plist */,
+				CA0CFF4018E22CD4000BE57E /* InfoPlist.strings */,
+				CA0CFF4318E22CD4000BE57E /* main.m */,
+				CA0CFF4518E22CD4000BE57E /* AstroSign-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA0CFF5C18E22CE2000BE57E /* AstroSignTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CFF6218E22CE2000BE57E /* AstroSignTests.m */,
+				CA0CFF5D18E22CE2000BE57E /* Supporting Files */,
+			);
+			path = AstroSignTests;
+			sourceTree = "<group>";
+		};
+		CA0CFF5D18E22CE2000BE57E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA0CFF5E18E22CE2000BE57E /* AstroSignTests-Info.plist */,
+				CA0CFF5F18E22CE2000BE57E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0CFF3318E22CCA000BE57E /* AstroSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0CFF6618E22CE3000BE57E /* Build configuration list for PBXNativeTarget "AstroSign" */;
+			buildPhases = (
+				CA0CFF3018E22CCA000BE57E /* Sources */,
+				CA0CFF3118E22CCA000BE57E /* Frameworks */,
+				CA0CFF3218E22CCA000BE57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroSign;
+			productName = AstroSign;
+			productReference = CA0CFF3418E22CCF000BE57E /* AstroSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA0CFF5418E22CE0000BE57E /* AstroSignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0CFF6918E22CE3000BE57E /* Build configuration list for PBXNativeTarget "AstroSignTests" */;
+			buildPhases = (
+				CA0CFF5118E22CE0000BE57E /* Sources */,
+				CA0CFF5218E22CE0000BE57E /* Frameworks */,
+				CA0CFF5318E22CE0000BE57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0CFF5B18E22CE2000BE57E /* PBXTargetDependency */,
+			);
+			name = AstroSignTests;
+			productName = AstroSignTests;
+			productReference = CA0CFF5518E22CE0000BE57E /* AstroSignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0CFF2C18E22CC8000BE57E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					CA0CFF5418E22CE0000BE57E = {
+						TestTargetID = CA0CFF3318E22CCA000BE57E;
+					};
+				};
+			};
+			buildConfigurationList = CA0CFF2F18E22CC9000BE57E /* Build configuration list for PBXProject "AstroSign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA0CFF2B18E22CC8000BE57E;
+			productRefGroup = CA0CFF3518E22CCF000BE57E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0CFF3318E22CCA000BE57E /* AstroSign */,
+				CA0CFF5418E22CE0000BE57E /* AstroSignTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0CFF3218E22CCA000BE57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0CFF5018E22CD8000BE57E /* Images.xcassets in Resources */,
+				CA0CFF4218E22CD4000BE57E /* InfoPlist.strings in Resources */,
+				CA0CFF4B18E22CD6000BE57E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0CFF5318E22CE0000BE57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0CFF6118E22CE2000BE57E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0CFF3018E22CCA000BE57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0CFF6E18E2392B000BE57E /* Utilities.m in Sources */,
+				CAF9BBBE190D98580016AD71 /* ImageCell.m in Sources */,
+				CAAFC0EF18EA3AB7000DB662 /* ContentViewController.m in Sources */,
+				CA0CFF4818E22CD6000BE57E /* AppDelegate.m in Sources */,
+				CAF9BBC1190D98630016AD71 /* SignInfo.m in Sources */,
+				CA0CFF4418E22CD4000BE57E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0CFF5118E22CE0000BE57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0CFF6318E22CE3000BE57E /* AstroSignTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA0CFF5B18E22CE2000BE57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0CFF3318E22CCA000BE57E /* AstroSign */;
+			targetProxy = CA0CFF5A18E22CE2000BE57E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA0CFF4018E22CD4000BE57E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0CFF4118E22CD4000BE57E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA0CFF4918E22CD6000BE57E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0CFF4A18E22CD6000BE57E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA0CFF5F18E22CE2000BE57E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0CFF6018E22CE2000BE57E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA0CFF6418E22CE3000BE57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA0CFF6518E22CE3000BE57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA0CFF6718E22CE3000BE57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AstroSign/AstroSign-Prefix.pch";
+				INFOPLIST_FILE = "AstroSign/AstroSign-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA0CFF6818E22CE3000BE57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AstroSign/AstroSign-Prefix.pch";
+				INFOPLIST_FILE = "AstroSign/AstroSign-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CA0CFF6A18E22CE3000BE57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AstroSign.app/AstroSign";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AstroSign/AstroSign-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AstroSignTests/AstroSignTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CA0CFF6B18E22CE3000BE57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AstroSign.app/AstroSign";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AstroSign/AstroSign-Prefix.pch";
+				INFOPLIST_FILE = "AstroSignTests/AstroSignTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0CFF2F18E22CC9000BE57E /* Build configuration list for PBXProject "AstroSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0CFF6418E22CE3000BE57E /* Debug */,
+				CA0CFF6518E22CE3000BE57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0CFF6618E22CE3000BE57E /* Build configuration list for PBXNativeTarget "AstroSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0CFF6718E22CE3000BE57E /* Debug */,
+				CA0CFF6818E22CE3000BE57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0CFF6918E22CE3000BE57E /* Build configuration list for PBXNativeTarget "AstroSignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0CFF6A18E22CE3000BE57E /* Debug */,
+				CA0CFF6B18E22CE3000BE57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA0CFF2C18E22CC8000BE57E /* Project object */;
+}
